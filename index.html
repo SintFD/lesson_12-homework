@@ -8,9 +8,121 @@
   </head>
   <body>
     <main>
-      <section class="edit container"></section>
-      <section class="preferences container"></section>
-      <section class="security container"></section>
+      <section class="edit container">
+        <ul class="edit__head">
+          <li class="edit__item">Edit Profile</li>
+          <li class="edit__item">Preferences</li>
+          <li class="edit__item">Security</li>
+        </ul>
+        <div class="edit__wrapper">
+          <img class="edit__user-img" src="./images/user-icon.png" alt="" />
+          <form class="form" action="./">
+            <ul class="form__list">
+              <li class="form__item">
+                <label class="form__label" for="person-name"
+                  >Your Name<input
+                    placeholder="Charlene Reed"
+                    class="form__input"
+                    id="person-name"
+                    type="text"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="user-name"
+                  >User Name<input
+                    placeholder="Charlene Reed"
+                    class="form__input"
+                    id="user-name"
+                    type="text"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="email"
+                  >Email<input
+                    placeholder="charlenereed@gmail.com "
+                    class="form__input"
+                    id="email"
+                    type="email"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="password"
+                  >Password<input
+                    placeholder="**********"
+                    class="form__input"
+                    id="password"
+                    type="password"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="birthday"
+                  >Date of Birth<input
+                    placeholder="25 January 1990"
+                    class="form__input"
+                    id="birthday"
+                    type="text"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="present-address"
+                  >Present Address<input
+                    placeholder="San Jose, California, USA"
+                    class="form__input"
+                    id="present-address"
+                    type="text"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="permanent-address"
+                  >Permanent Address<input
+                    placeholder="San Jose, California, USA"
+                    class="form__input"
+                    id="permanent-address"
+                    type="text"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="city"
+                  >City<input
+                    placeholder="San Jose"
+                    class="form__input"
+                    id="city"
+                    type="text"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="code"
+                  >Postal Code<input
+                    placeholder="45962"
+                    class="form__input"
+                    id="code"
+                    type="text"
+                  />
+                </label>
+              </li>
+              <li class="form__item">
+                <label class="form__label" for="country"
+                  >Country<input
+                    placeholder="USA"
+                    class="form__input"
+                    id="country"
+                    type="text"
+                  />
+                </label>
+              </li>
+            </ul>
+            <button class="form__button" type="submit">Save</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
